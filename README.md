@@ -5,11 +5,9 @@
 
 ** STEPS
 
-- npm init -y
-- change `"main": "index.js"` to `"main": "server.js"` in `package.json`
-- npm i express ejs express-ejs-layouts
-- npm i --save-dev nodemon
-- set `"start": "node server.js"` `"scripts"` in `package.json`
-- set `"startDev": "nodemon server.js"` `"scripts"` in `package.json`
-- create `server.js` file and config it
-- npm run devStart
+- `npm init -y` initialize npm
+- `npm i express ejs express-ejs-layouts` install ejs
+- `npm i --save-dev nodemon` install nodemon
+- `npm run devStart` start the server
+- `npm i mongoose` install the library for MongoDB
+- `npm i --save-dev dotenv` install dotenv which allows to load evironment variables into the application
