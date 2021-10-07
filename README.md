@@ -1,7 +1,4 @@
-
-
-** USE
-
+firstnodemongo App deployed on Heroku
 
 ** STEPS
 
