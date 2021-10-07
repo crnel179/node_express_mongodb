@@ -7,13 +7,9 @@
     <title>nodexpressmongodb</title>
 </head>
 <body>
-    <!-- the code that goes inside the application before and after every single page -->
-    Before
-    <br>
-    <!-- the content of everything inside the application -->
+    <!-- displays the content from `partials/header.ejs` -->
+    <%- include('../partials/header.ejs') %>
     <!-- the body includes every single one of the pages -->
     <%- body %>
-    <br>
-    After    
 </body>
 </html>
